@@ -1,0 +1,20 @@
+resource_id,incident_type,start,alert_original_detected,alert_calibrated_single_detected,alert_calibrated_persist_detected,alert_static_detected,alert_original_lead_h,alert_calibrated_single_lead_h,alert_calibrated_persist_lead_h,alert_static_lead_h
+gcp-vm-021,cpu_ramp_to_saturation,2026-09-26 11:00:00+00:00,True,False,True,True,4.0,,1.0,0.0
+azure-vm-019,cpu_ramp_to_saturation,2026-09-22 00:00:00+00:00,True,False,True,True,4.0,,2.0,0.0
+aws-vm-006,cpu_ramp_to_saturation,2026-09-24 12:00:00+00:00,True,False,True,True,4.0,,0.0,1.0
+aws-vm-007,cpu_ramp_to_saturation,2026-09-25 03:00:00+00:00,True,False,True,True,5.0,,0.0,0.0
+aws-vm-002,cpu_ramp_to_saturation,2026-09-26 13:00:00+00:00,True,False,True,True,5.0,,3.0,1.0
+oci-vm-033,cpu_sudden_spike,2026-09-26 20:00:00+00:00,False,False,False,False,,,,
+azure-vm-013,cpu_sudden_spike,2026-09-22 23:00:00+00:00,True,False,False,False,,,,
+oci-vm-032,cpu_sudden_spike,2026-09-26 19:00:00+00:00,False,False,False,False,,,,
+oci-vm-038,cpu_sudden_spike,2026-09-22 04:00:00+00:00,True,False,True,True,,,,
+oci-vm-039,cpu_sudden_spike,2026-09-23 22:00:00+00:00,True,False,False,False,,,,
+gcp-vm-025,memory_leak,2026-09-23 22:00:00+00:00,True,True,True,True,,,,
+gcp-vm-022,memory_leak,2026-09-26 13:00:00+00:00,True,True,True,True,,,,
+gcp-vm-023,memory_leak,2026-09-23 18:00:00+00:00,True,True,True,True,,,,
+aws-vm-003,memory_leak,2026-09-25 17:00:00+00:00,True,False,False,False,,,,
+aws-vm-008,subtle_cpu_shift,2026-09-21 06:00:00+00:00,True,False,False,False,,,,
+azure-vm-011,subtle_cpu_shift,2026-09-21 01:00:00+00:00,True,False,False,False,,,,
+gcp-vm-027,subtle_cpu_shift,2026-09-21 19:00:00+00:00,False,False,False,False,,,,
+gcp-vm-029,subtle_cpu_shift,2026-09-25 12:00:00+00:00,True,False,True,False,,,,
+aws-vm-010,subtle_cpu_shift,2026-09-20 09:00:00+00:00,True,False,False,False,,,,

@@ -1,0 +1,57 @@
+{
+  "setup": {
+    "vms": 40,
+    "test_days": 10,
+    "train_days": 24,
+    "calibration_days": 7,
+    "injected_vm_incidents": 19
+  },
+  "detection": {
+    "alert_original": "16/19",
+    "alert_calibrated_single": "3/19",
+    "alert_calibrated_persist": "10/19",
+    "alert_static": "9/19"
+  },
+  "false_alarms_per_vm_per_day": {
+    "alert_original": 2.038,
+    "alert_calibrated_single": 0.255,
+    "alert_calibrated_persist": 0.145,
+    "alert_static": 0.0
+  },
+  "ramp_median_lead_h": {
+    "alert_original": 4.0,
+    "alert_calibrated_single": null,
+    "alert_calibrated_persist": 1.0,
+    "alert_static": 0.0
+  },
+  "calibration": {
+    "alert_cuts_persistence": {
+      "z": 0.7364299999999994,
+      "br": 0.10542999999999937,
+      "iforest": 0.465,
+      "score": 47.59009999999996,
+      "quantile": 0.97,
+      "persistence": 2,
+      "clean_fa_per_resource_day": 0.158
+    },
+    "alert_cuts_single_hour": {
+      "z": 1.0,
+      "br": 0.16,
+      "iforest": 0.5934049999999997,
+      "score": 60.589099999999945,
+      "quantile": 0.995,
+      "persistence": 1,
+      "clean_fa_per_resource_day": 0.244
+    },
+    "interval_scale": {
+      "Compute": {
+        "24h": 1.747,
+        "6h": 1.514
+      },
+      "Storage": {
+        "24h": 0.621,
+        "6h": 0.282
+      }
+    }
+  }
+}

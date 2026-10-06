@@ -1,0 +1,30 @@
+{
+  "alert_cuts": {
+    "z": 0.7364299999999994,
+    "br": 0.10542999999999937,
+    "iforest": 0.465,
+    "score": 47.59009999999996,
+    "quantile": 0.97,
+    "persistence": 2,
+    "clean_fa_per_resource_day": 0.158
+  },
+  "alert_cuts_single_hour": {
+    "z": 1.0,
+    "br": 0.16,
+    "iforest": 0.5934049999999997,
+    "score": 60.589099999999945,
+    "quantile": 0.995,
+    "persistence": 1,
+    "clean_fa_per_resource_day": 0.244
+  },
+  "interval_scale": {
+    "Compute": {
+      "24h": 1.747,
+      "6h": 1.514
+    },
+    "Storage": {
+      "24h": 0.621,
+      "6h": 0.282
+    }
+  }
+}

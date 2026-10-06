@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+output.txt
+
+# Local state
+.stream_state/
+
+# OS
+.DS_Store
+Thumbs.db
+# Model artifacts and generated data (regenerate with synthetic_eval/generate_synthetic_data.py)
+*.joblib
+models/
+synthetic_eval/data/*.csv
+synthetic_eval/data_seed*/*.csv
+synthetic_eval/results_*/alert_timeline.csv
+synthetic_eval/results_*/forecast_eval_raw.csv
+!synthetic_eval/data/sample_predictions.json

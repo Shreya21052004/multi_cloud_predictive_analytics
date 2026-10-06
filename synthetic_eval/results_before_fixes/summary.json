@@ -1,0 +1,28 @@
+{
+  "setup": {
+    "vms": 40,
+    "volumes": 14,
+    "train_days": 24,
+    "test_days": 10,
+    "injected_vm_incidents": 19,
+    "alert_rule": "score>=40 OR any signal dominant"
+  },
+  "detection": {
+    "model": "14/19",
+    "static_threshold": "8/19"
+  },
+  "false_alarms": {
+    "model_alert": {
+      "false_alert_episodes": 447,
+      "per_vm_per_day": 1.117
+    },
+    "static_alert": {
+      "false_alert_episodes": 0,
+      "per_vm_per_day": 0.0
+    }
+  },
+  "ramp_lead_time_hours": {
+    "model_median": 4.0,
+    "static_median": 0.0
+  }
+}
